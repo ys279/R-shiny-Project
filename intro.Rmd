@@ -1,0 +1,22 @@
+---
+title: "intro"
+output: html_document
+---
+
+## Welcome! <br/> <br/>
+
+This app allows you to easily interact with Chicago 2016 taxi data by generating multiple maps and graphs. There are 3 tabs that serve distinctive functions in visualizing Chicago taxi data: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1. Frequency Map:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This tab allows you to generate 1) a normal Chicago map that shows each individual taxi drop-offs 2) a heat Chicago map that shows the relative “popularity” of taxi drop-offs. Arguments include day of the week, month and time of the day.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2. Visitor Map:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This tab allows you to generate a map that shows landmarks that are nearest to each individual drop-offs. Arguments include day of the week, month, time of the day and popularity of landmark.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3. Diagrams:** <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This tab allows you to generate 2 histograms and a time series plot that show the number of taxi services provided within specific time of the day, day of the week and between January and February. Arguments include color of the graph and month.<br/>
+
+All 3 tabs require you to specify inputs in the sidebar. Note that the sidebar can be moved as to not block your view. Explanation of all inputs are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;day of the week, month and time of the day: these are for you to specify the time. Note all time choices are in 2016. Default setting is Friday, January, 0am - 3am. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;popularity of landmark: 4 levels of popularity(most popular, popular, little popular, not popular) labeled for various landmarks of Chicago City. You can choose a subset of these 4 levels. Default setting is to include all 4 levels.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;color of the graph: 4 colors of your choice to change the color of the 2 histograms. Default setting is pink.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;month: 12 months of 2016. Default setting is January.<br/>
+
+Once you entered this app, maps and graphs are automatically created based on default settings. You are able to select different inputs. Your choices will be saved so you can switch between tabs.
